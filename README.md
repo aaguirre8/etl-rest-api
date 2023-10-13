@@ -1,12 +1,13 @@
-# python-project-template
-This is a template for python projects
+# etl-rest-api
+How to create a ETL service tutorial.
+Reference: https://medium.com/plumbersofdatascience/etl-rest-api-using-python-flask-c8171ac925c5
 
 
 ## Setup
 1. Create and source conda env
 ```bash
 $ conda env create -f environment.yml
-$ conda activate env-name
+$ conda activate etl-api
 ```
 Note: After env creation, the terminal may need to be restarted for the env to be activated.
 
@@ -14,28 +15,6 @@ Note: After env creation, the terminal may need to be restarted for the env to b
 ```bash
 $ make install
 ```
-
-## Scaffold
-- repo name
-  - app name
-    - db
-    - module name
-      - etl
-       - __init_.py
-       - readme.md
-      - ml
-       - __init__.py
-       - readme.md
-    - shared
-    - app.py
-  - .env
-  - .gitignore
-  - environment.yml
-  - Makefile
-  - README.md
-  - requirements.txt
-  - setup.py
-
 
 ## Packaging
 1. Execute the setup.py script using the following command:
